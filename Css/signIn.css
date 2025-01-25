@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+body{
+    background: white;
+    text-align: center;
+    font-family: outfit;
+    min-height: 100vh;
+}
+.logo{
+    margin-top: 30px;
+}
+.signIn-containeer{
+    max-width: 350px;
+    border: 1px solid #d2d2d2 ;
+    margin: auto;
+    margin-top: 20px;
+    padding:20px 26px;
+    border-radius: 8px;
+    text-align: left;
+}
+.sign-title{
+    font-size:28px;
+    font-weight: 400;
+}
+.input-label{
+    margin-top: 20px;
+
+}
+.signIn-containeer input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    font-size: 12px;
+}
+.signIn-containeer input:focus{
+    outline: 3px solid #c2f2ff;
+}
+.signIn-containeer button{
+    width: 100%;
+    height: 32px;
+    margin: 15px 0;
+    background: #ffd814;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.signIn-containeer button:hover{
+    background: #ebc712;
+}
+.signIn-condition{
+    font-size: 12px;
+}
+.signIn-condition p a{
+    color: #0066c0;
+}
+.signIn-help{
+    font-size: 13px;
+    margin:25px 0;
+}
+.signIn-containeer hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+}
+.signIn-containeer h4{
+    margin: 15px 0;
+    font-size: 13px;
+}
+.signIn-containeer p a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+.signIn-bottom{
+    max-width:350px;
+    font-size: 13px;
+    color: #737373;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.signIn-bottom hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+    width: 110px;
+}
+.sign_signup-btn{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+}
+.sign_signup-btn:hover{
+    background: #f1f1f1;
+}
+footer{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-top: 30px;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    background:linear-gradient(to bottom, #f4f4f4,white) ;
+    border: 2px solid #ededed;
+    font-size: 12px;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color:#0066c0;
+}
